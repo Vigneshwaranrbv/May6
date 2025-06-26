@@ -14,8 +14,8 @@ import java.util.List;
 public class StudentController {
 
     List<Student> students = new ArrayList<>(Arrays.asList(
-            new Student(1,"vignesh","cs"),
-            new Student(2,"bhuvanesh","ece")
+            new Student(1,"vigneshwaran","cs"),
+            new Student(2,"bhuvaneshwaran","ece")
     ));
 
     @GetMapping("/students")
